@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Learning Node, Express and MongoDB",
   "main": "app.js",
+  "type":"module",
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "SET NODE_ENV=production && nodemon server.js",
@@ -23,6 +24,7 @@
     "express": "^4.19.0",
     "express-mongo-sanitize": "^2.2.0",
     "express-rate-limit": "^7.2.0",
+    "frontdriveapi": "github:orangeplanetlabs/filesystem-drive",
     "helmet": "^7.1.0",
     "hpp": "^0.2.3",
     "html-to-text": "^9.0.5",
